@@ -3,17 +3,13 @@
 
 #define RELEPIN D4
 
-//const char* ssid = "Tattelecom_D2EF";
-//const char* password = "aeFiyhJU";
-//
-const char* ssid = "Redmi";
-const char* password = "qqwweerr";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 String mqtt_user = "Light";
 const char* topic = "smart_home/mqtt";
 
-//const char* mqtt_server = "192.168.1.9";
-const char* mqtt_server = "178.205.135.52";
+const char* mqtt_server = "192.168.1.9";
 const int mqtt_port = 1883;
 
 String rele_flag = "switched off";
