@@ -6,8 +6,8 @@
 #define DHTTYPE DHT11
 #define DHTPIN D4
 
-const char* ssid = "Tattelecom_D2EF";
-const char* password = "aeFiyhJU";
+const char* ssid = "******";
+const char* password = "*****";
 
 String mqtt_user = "temp";
 const char* topic = "smart_home/mqtt";
